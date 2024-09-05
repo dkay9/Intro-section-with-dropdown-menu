@@ -84,18 +84,19 @@ li div{
 #hero{
     display: flex;
     width: 100%;
-    padding: 20px 80px;
-    height: 100vh;
+    padding: 20px 120px;
+    height: 90vh;
 }
 
 #heroText{
     width: 50%;
+    margin-left: 50px;
 }
 
 #heroText h1{
     font-size: 64px;
-    margin-top: 60px;
-    margin-bottom: 50px;
+    margin-top: 80px;
+    margin-bottom: 40px;
 }
 
 #heroText p{
@@ -103,7 +104,7 @@ li div{
     line-height: 155%;
     color: var(--Medium-Gray);
     width: 70%;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 #heroText .btn{
@@ -113,17 +114,33 @@ li div{
     border: none;
     color: white;
     cursor: pointer;
+    transition: 0.3s ease;
 }
+
+#heroText .btn:hover{
+    background-color: transparent;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    color: var(--Medium-Gray);
+}
+
 #heroImg{
     width: 40%;
 }
+
 #heroImg img{
-    /* width: auto; */
-    /* height: 500px; */
+    width: 80%;
+    /* height: 60vh; */
+    margin-left: 150px;
 }
+
 #sponsor{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
+}
+
+.sponImg{
+    width: 100px;
 }
