@@ -13,26 +13,64 @@
             <a href="#">
                 <img class="logo" src="images/logo.svg" alt="logo">
             </a>
-            <ul id="navbar">
-                <li class="dropdown">
-                    <div>Features <img class="dropdownArrow" src="images/icon-arrow-down.svg" alt="dropdown icon"></div>
-                </li>
-                <li class="dropdown">
-                    <div>Company <img class="dropdownArrow" src="images/icon-arrow-down.svg" alt="drop down icon"></div>
-                </li>
-                <li>
-                    <a href="#">Careers</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-            </ul>
+            <div class="navMenu">
+                <ul id="navbar">
+                    <li class="dropdown">
+                        <div>Features <img class="dropdownArrow" src="images/icon-arrow-down.svg" alt="dropdown icon">
+                        </div>
+                        <div class="dropSection showDrop">
+                            <div>
+                                <img src="images/icon-todo.svg" alt="">
+                                <span>Todo List</span>
+                            </div>
+                            <div>
+                                <img src="images/icon-calendar.svg" alt="">
+                                <span>Calender</span>
+                            </div>
+                            <div>
+                                <img src="images/icon-reminders.svg" alt="">
+                                <span>Reminders</span>
+                            </div>
+                            <div>
+                                <img src="images/icon-planning.svg" alt="">
+                                <span>Planning</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <div>Company <img class="dropdownArrow" src="images/icon-arrow-down.svg" alt="drop down icon"></div>
+                        <div class="dropSection showDrop">
+                            <div>
+                                <span>History</span>
+                            </div>
+                            <div>
+                                <span>Our Team</span>
+                            </div>
+                            <div>
+                                <span>Blog</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Careers</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <a href="#" id="close">
+                        <img src="images/icon-close-menu.svg" alt="">
+                    </a>
+                </ul>
+                <div id="login">
+                    <a href="#">Login</a>
+                    <button class="regBtn">Register</button>
+                </div>
+            </div>
+            <div id="menu">
+                <img src="images/icon-menu.svg" alt="">
+            </div>
         </div>
 
-        <div id="login">
-            <a href="#">Login</a>
-            <button class="regBtn">Register</button>
-        </div>
     </section>
 
     <section id="hero">
@@ -62,7 +100,7 @@
         </div>
 
         <div id="heroImg">
-            <img src="images/image-hero-desktop.png" alt="">
+            <!-- <img src="images/image-hero-desktop.png" alt=""> -->
         </div>
     </section>
 </body>
